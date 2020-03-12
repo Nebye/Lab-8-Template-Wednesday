@@ -99,6 +99,6 @@ class CityListTest {
         CityList cityList = mockCityList();
         cityList.add(new City("TestCity", "TestProv"));
 
-        assertEquals(cityList.getCities().get(1),cityList.getFirstCity());
+        assertEquals(cityList.getCities().get(0),cityList.getFirstCity());
     }
 }
