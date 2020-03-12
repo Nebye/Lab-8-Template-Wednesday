@@ -78,10 +78,8 @@ public class CityList {
         return cities.size();
     }
 
-    public int getFirstCity()
+    public City getFirstCity()
     {
-        int i = 0;
-        return i;
-    //    return cities.get(0);
+        return cities.get(0);
     }
 }
